@@ -1,0 +1,52 @@
+.body {
+  background-image: url(../Picture/fondodoom1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.info-doom {
+  color: rgb(213, 213, 213);
+  text-align: center;
+  padding: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  background-color: hsla(0deg, 0%, 0%, 0.578);
+}
+
+.navbar {
+  background-color: rgba(22, 22, 77, 0.39);
+  padding: 20px;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar ul li {
+  color: black;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(218, 128, 55);
+}
+
+.titulo {
+  color: darkorange;
+}
+
+.texto {
+  color: rgb(63, 66, 240);
+}
+
+.texto3 {
+  color: rgb(173, 0, 0);
+}

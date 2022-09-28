@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgba(22, 22, 77, 0.39);
+    padding: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    color: black;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(218, 128, 55);
+}
