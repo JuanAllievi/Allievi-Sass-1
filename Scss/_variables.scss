@@ -1,0 +1,26 @@
+$ancho-boton: 10px;
+$color-especial: red;
+$ancho-estandar: 100px;
+$medidaembase: 1em;
+$color: red;
+
+body{
+    @if $vista == desktop {
+        @media only screen and (min-width:1024px){
+            h1{font-size:$h1Desktop;}
+            h3{font-size:35px;}
+            p{font-size:$parrafoDesktop;}
+            }
+        } @else if $vista == mobile {
+            @media only screen and (max-width:767px){
+                h1{font-size:$h1Mobile;}
+                h3{font-size:25px;}
+                p{font-size:$parrafoMobile;}
+            }
+        } @else {
+            h1{font-size:34px;}
+            h3{font-size:25px;}
+            p{font-size:20px;}
+        }
+    }
+    
